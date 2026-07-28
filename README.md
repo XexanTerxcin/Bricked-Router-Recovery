@@ -11,8 +11,6 @@ Recover your **TP-Link TL-WR840N v6.20** from a soft brick using the built-in **
 - TP-Link TL-WR840N v6.20
 - Ethernet cable
 - PC/Laptop
-- Tftpd64/Tftpd32
-- Official TP-Link firmware
 
 ---
 
@@ -21,13 +19,12 @@ Recover your **TP-Link TL-WR840N v6.20** from a soft brick using the built-in **
 ### 1️⃣ Clone this repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool.git
+# Go to the clone Bricked-TP-Link-WR840N-V6.20-Recovery-Tool directory and install Tftpd64_Installer_v4.70.exe
+# 
+
 ```
 
-### 2️⃣ Install Tftpd64 (Windows)
-
-Download and install **Tftpd64** (or **Tftpd32**).
 
 ### 3️⃣ Set a Static IP
 
