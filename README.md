@@ -166,16 +166,6 @@ Doing so may permanently brick the router.
 
 </details>
 
----
-
-## ❤️ Credits
-
-- TP-Link
-- OpenWrt Community
-- Everyone who documented TP-Link recovery methods
-
----
-
 <div align="center">
 
 ## ⭐ Support
