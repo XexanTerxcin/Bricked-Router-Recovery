@@ -164,9 +164,9 @@ Doing so may permanently brick the router.
 └── README.md
 ```
 
----
-
 </details>
+
+---
 
 <div align="center">
 
