@@ -110,19 +110,22 @@ Your router should boot normally after flashing.
 
 ---
 
-# ⚠️ Using Another Router?
+# 🌍 Using This Guide for Other Routers
 
-If your router is **NOT TL-WR840N v6.20**
+The **TP-Link TL-WR840N v6.20** is used only as an example because of its popularity, making it easier for most users to follow along.
 
-1. Delete the existing `.bin` file.
-2. Copy your own firmware into the folder.
-3. Rename it to
+If you're recovering a different router:
 
-```
+1. Delete the existing .bin file.
+2. Download the correct firmware for your router and hardware version.
+2. Copy your router's firmware into the folder.
+3. Rename the firmware to:
+
+```text
 original.bin
 ```
 
-Run this command in the same directory
+4. Run this command in the same directory:
 
 ```bash
 dd if=original.bin of=tp_recovery.bin bs=512 skip=1
@@ -136,6 +139,9 @@ tp_recovery.bin
 
 is the file Tftpd64 should serve.
 
+5. Start the TFTP server and follow the same recovery process.
+
+> **Note:** Some routers require a different TFTP filename, server IP address, or recovery procedure. Check your router's documentation or bootloader requirements before flashing.
 ---
 
 ## ⚠️ Important
