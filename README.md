@@ -20,9 +20,7 @@ Recover your **TP-Link TL-WR840N v6.20** from a soft brick using the built-in **
 
 ```bash
 git clone https://github.com/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool.git
-# Go to the clone Bricked-TP-Link-WR840N-V6.20-Recovery-Tool directory and install Tftpd64_Installer_v4.70.exe
-# 
-
+# Go to the cloned Bricked-TP-Link-WR840N-V6.20-Recovery-Tool directory and install Tftpd64_Installer_v4.70.exe
 ```
 
 
@@ -39,7 +37,7 @@ Configure your Ethernet adapter:
 ### 4️⃣ Open Tftpd64
 
 - Launch **Tftpd64**
-- Select the directory containing the recovery firmware.
+- Select the directory containing the recovery firmware.[/TL-WR840N(EU)_V6.20_201124]
 - Make sure the firmware filename matches the one expected by the bootloader.
 
 ### 5️⃣ Connect the Router
