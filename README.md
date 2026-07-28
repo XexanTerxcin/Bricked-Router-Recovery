@@ -1,79 +1,172 @@
-# 🔧 TP-Link TL-WR840N v6.20 Recovery (TFTP Method)
+<div align="center">
 
-Recover your **TP-Link TL-WR840N v6.20** from a soft brick using the built-in **TFTP Recovery Mode**—**no USB-to-TTL adapter required**.
+# 🔧 TP-Link TL-WR840N v6.20 Recovery Tool
 
-> **Tested on:** TL-WR840N v6.20
+### Recover your **TP-Link TL-WR840N v6.20** using the built-in **TFTP Recovery Mode**
+### 🚫 No USB to TTL Adapter Required
 
----
-
-## 📋 Requirements
-
-- TP-Link TL-WR840N v6.20
-- Ethernet cable
-- PC/Laptop
+![GitHub Repo stars](https://img.shields.io/github/stars/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool?style=for-the-badge)
 
 ---
 
-## 🚀 Recovery Steps
+### ⭐ If this repository helps you, don't forget to Star it!
 
-### 1️⃣ Clone this repository
+</div>
+
+---
+
+## ✨ Features
+
+- ✅ Recover a soft-bricked TL-WR840N v6.20
+- ✅ Uses the built-in TP-Link TFTP Recovery
+- ✅ No serial console required
+- ✅ No soldering required
+- ✅ Beginner-friendly
+
+---
+
+## 📦 Requirements
+
+- TP-Link TL-WR840N **v6.20**
+- Windows PC/Laptop
+- Ethernet Cable
+
+---
+
+# 🚀 Recovery Guide
+
+## ① Clone this repository
 
 ```bash
 git clone https://github.com/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool.git
-# Go to the cloned Bricked-TP-Link-WR840N-V6.20-Recovery-Tool directory and install Tftpd64_Installer_v4.70.exe
 ```
 
+Install
 
-### 3️⃣ Set a Static IP
+```
+Tftpd64_Installer_v4.70.exe
+```
 
-Configure your Ethernet adapter:
+---
+
+## ② Configure Static IP
 
 | Setting | Value |
 |---------|-------|
 | IP Address | `192.168.0.66` |
 | Subnet Mask | `255.255.255.0` |
-| Gateway | Leave blank |
-
-### 4️⃣ Open Tftpd64
-
-- Launch **Tftpd64**
-- Select the directory containing the recovery firmware.[/TL-WR840N(EU)_V6.20_201124]
-
-### 5️⃣ Connect the Router
-
-Connect your PC to any **LAN** port of the router using an Ethernet cable.
-
-### 6️⃣ Start Recovery Mode
-
-1. Press and **hold the Reset button**.
-2. While holding it, **power on the router**.
-3. Keep holding the button until Tftpd64 shows the firmware transfer has completed successfully in the log.
-4. Release the button.
-
-### 7️⃣ Wait
-
-The router will automatically flash the firmware and reboot.
-
-✅ Recovery Complete!
+| Gateway | *(Leave Empty)* |
 
 ---
 
-## ⚠️ Notes
+## ③ Launch Tftpd64
 
-- If you have different router then download the correct firmware for your hardware version.
-- delete the bin files from the TL-WR840N(EU)_V6.20_201124 folder and move your router's firmware there, rename your frimware to original.BIn and run this comman in that directory:
+- Open **Tftpd64**
+- Select the folder
+
 ```
+TL-WR840N(EU)_V6.20_201124
+```
+
+---
+
+## ④ Connect Router
+
+Connect your computer to any **LAN Port** using an Ethernet cable.
+
+---
+
+## ⑤ Enter Recovery Mode
+
+1. Hold the **RESET** button.
+2. Power ON the router.
+3. Keep holding RESET until Tftpd64 finishes transferring the firmware.
+4. Release RESET.
+5. Wait for the router to reboot.
+
+---
+
+# 🎉 Done!
+
+Your router should boot normally after flashing.
+
+---
+
+# ⚠️ Using Another Router?
+
+If your router is **NOT TL-WR840N v6.20**
+
+1. Delete the existing `.bin` file.
+2. Copy your own firmware into the folder.
+3. Rename it to
+
+```
+original.bin
+```
+
+Run
+
+```bash
 dd if=original.bin of=tp_recovery.bin bs=512 skip=1
 ```
-- Do **not** disconnect power during flashing.
-- The first boot may take a few minutes.
+
+The generated
+
+```
+tp_recovery.bin
+```
+
+is the file Tftpd64 should serve.
+
+---
+
+## ⚠️ Important
+
+> **Never disconnect power while flashing.**
+
+Doing so may permanently brick the router.
+
+---
+
+<details>
+<summary><b>📁 Repository Structure</b></summary>
+
+```text
+.
+├── Firmware/
+├── Tftpd64_Installer_v4.70.exe
+├── TL-WR840N(EU)_V6.20_201124/
+│   └── tp_recovery.bin
+└── README.md
+```
+
+</details>
 
 ---
 
 ## ❤️ Credits
 
-Thanks to the TP-Link community and everyone who shared recovery methods that helped bring this router back to life.
+- TP-Link
+- OpenWrt Community
+- Everyone who documented TP-Link recovery methods
 
 ---
 
-⭐ If this guide helped you recover your router, consider giving this repository a **Star**.
+<div align="center">
+
+## ⭐ Support
+
+If this project saved your router,
+
+**Please consider giving this repository a ⭐ Star.**
+
+It helps other people find this recovery guide.
+
+---
+
+Made with ❤️ by **SMY GAMER**
+
+</div>
