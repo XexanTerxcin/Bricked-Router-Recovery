@@ -7,7 +7,6 @@
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool?style=for-the-badge)
-![GitHub License](https://img.shields.io/github/license/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool?style=for-the-badge)
 
 ---
@@ -107,7 +106,7 @@ If your router is **NOT TL-WR840N v6.20**
 original.bin
 ```
 
-Run
+Run this command in the same directory
 
 ```bash
 dd if=original.bin of=tp_recovery.bin bs=512 skip=1
@@ -167,6 +166,6 @@ It helps other people find this recovery guide.
 
 ---
 
-Made with ❤️ by **SMY GAMER**
+Made with ❤️ by **XeXaN TeRxCiN**
 
 </div>
