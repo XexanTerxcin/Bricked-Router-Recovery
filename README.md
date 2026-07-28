@@ -38,7 +38,6 @@ Configure your Ethernet adapter:
 
 - Launch **Tftpd64**
 - Select the directory containing the recovery firmware.[/TL-WR840N(EU)_V6.20_201124]
-- Make sure the firmware filename matches the one expected by the bootloader.
 
 ### 5️⃣ Connect the Router
 
@@ -48,7 +47,7 @@ Connect your PC to any **LAN** port of the router using an Ethernet cable.
 
 1. Press and **hold the Reset button**.
 2. While holding it, **power on the router**.
-3. Keep holding the button until Tftpd64 shows the firmware transfer has completed successfully.
+3. Keep holding the button until Tftpd64 shows the firmware transfer has completed successfully in the log.
 4. Release the button.
 
 ### 7️⃣ Wait
@@ -61,7 +60,11 @@ The router will automatically flash the firmware and reboot.
 
 ## ⚠️ Notes
 
-- Use the correct firmware for your hardware version.
+- If you have different router then download the correct firmware for your hardware version.
+- delete the bin files from the TL-WR840N(EU)_V6.20_201124 folder and move your router's firmware there, rename your frimware to original.BIn and run this comman in that directory:
+```
+dd if=original.bin of=tp_recovery.bin bs=512 skip=1
+```
 - Do **not** disconnect power during flashing.
 - The first boot may take a few minutes.
 
