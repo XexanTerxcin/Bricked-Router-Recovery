@@ -1,9 +1,9 @@
 <div align="center">
 
-# 🔧 TP-Link TL-WR840N v6.20 Recovery Tool
+# 🌐 Universal Bricked Router Recovery Guide
 
-### Recover your **TP-Link TL-WR840N v6.20** using the built-in **TFTP Recovery Mode**
-### 🚫 No USB to TTL Adapter Required
+### Recover a soft-bricked router using the built-in **TFTP Recovery Mode**
+### 🚫 No USB-to-TTL Adapter Required *(If your bootloader supports TFTP recovery)*
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/XexanTerxcin/Bricked-TP-Link-WR840N-V6.20-Recovery-Tool?style=for-the-badge)
@@ -11,19 +11,35 @@
 
 ---
 
-### ⭐ If this repository helps you, don't forget to Star it!
+### ⭐ Save Your Router — Save Your Money
 
 </div>
 
 ---
 
+# 📖 About
+
+Many routers include a hidden **TFTP Recovery Mode** inside their bootloader, allowing a corrupted or soft-bricked firmware to be restored without opening the device or using a USB-to-TTL adapter.
+
+This repository demonstrates the complete recovery process using the **TP-Link TL-WR840N v6.20** as the example router because it is one of the most widely used home routers in many countries.
+
+Although the included firmware files are specifically prepared for the **TL-WR840N v6.20**, the overall recovery process is nearly identical for many TP-Link routers and several other router brands that support TFTP recovery.
+
+Simply replace the firmware with the correct one for your router model and follow the same steps.
+
+> ⚠️ **Always use firmware that exactly matches your router's hardware version.**
+
+---
+
 ## ✨ Features
 
-- ✅ Recover a soft-bricked TL-WR840N v6.20
-- ✅ Uses the built-in TP-Link TFTP Recovery
+- ✅ Universal TFTP recovery workflow
+- ✅ Uses TP-Link TL-WR840N v6.20 as an example
+- ✅ No USB-to-TTL adapter required
 - ✅ No serial console required
 - ✅ No soldering required
 - ✅ Beginner-friendly
+- ✅ Easily adaptable to other router models
 
 ---
 
