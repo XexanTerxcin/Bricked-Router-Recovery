@@ -130,6 +130,7 @@ original.bin
 ```bash
 dd if=original.bin of=tp_recovery.bin bs=512 skip=1
 ```
+<img width="736" height="125" alt="image" src="https://github.com/user-attachments/assets/da1731d8-0533-4d29-b2b1-59b6282178ce" />
 
 The generated
 
