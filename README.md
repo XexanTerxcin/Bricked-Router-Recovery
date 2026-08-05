@@ -81,12 +81,22 @@ Tftpd64_Installer_v4.70.exe
 
 ## ③ Launch Tftpd64
 
-- Open **Tftpd64**
-- Select the folder
+1. Open **Tftpd64**.
+2. Set the **Current Directory** to:
 
-```
+```text
 TL-WR840N(EU)_V6.20_201124
 ```
+
+3. Under **Server Interfaces**, select:
+
+```text
+192.168.0.66
+```
+
+4. Verify that **Current Directory** and **Server Interface** are correct before powering on the router.
+<p align="center"><img width="324" height="279" alt="image" src="https://github.com/user-attachments/assets/ada48c3c-a922-42aa-a772-cbb2af16e53a" /></p>
+
 
 ---
 
