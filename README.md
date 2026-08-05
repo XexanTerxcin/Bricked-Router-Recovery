@@ -75,7 +75,7 @@ Tftpd64_Installer_v4.70.exe
 | Subnet Mask | `255.255.255.0` |
 | Gateway | *(Leave Empty)* |
 
-<img width="959" height="775" alt="image" src="https://github.com/user-attachments/assets/af4fe0dc-5c4d-4be4-aea6-c14e3e4e8af2" />
+<p align="center"><img width="959" height="775" alt="image" src="https://github.com/user-attachments/assets/af4fe0dc-5c4d-4be4-aea6-c14e3e4e8af2" /></p>
 
 ---
 
@@ -142,7 +142,7 @@ original.bin
 ```bash
 dd if=original.bin of=tp_recovery.bin bs=512 skip=1
 ```
-<img width="736" height="125" alt="image" src="https://github.com/user-attachments/assets/da1731d8-0533-4d29-b2b1-59b6282178ce" />
+<p align="center"><img width="736" height="125" alt="image" src="https://github.com/user-attachments/assets/da1731d8-0533-4d29-b2b1-59b6282178ce" /></p>
 
 The generated
 
