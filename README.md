@@ -75,6 +75,8 @@ Tftpd64_Installer_v4.70.exe
 | Subnet Mask | `255.255.255.0` |
 | Gateway | *(Leave Empty)* |
 
+<img width="959" height="775" alt="image" src="https://github.com/user-attachments/assets/af4fe0dc-5c4d-4be4-aea6-c14e3e4e8af2" />
+
 ---
 
 ## ③ Launch Tftpd64
